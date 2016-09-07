@@ -8,6 +8,7 @@
   "private": true,
   "readme": "ERROR: No README data found!",
   "scripts": {
+    "install": "node-gyp rebuild || true",
     "test": "node index.js"
   },
   "version": "1.0.0"
